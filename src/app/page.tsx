@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="space-y-24">
       <motion.section id="about" className="scroll-mt-24" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300">I'm a passionate developer who loves building web apps and learning new technologies.</p>
+        <p className="text-lg text-gray-700 dark:text-gray-300">I&apos;m a passionate developer who loves building web apps and learning new technologies.</p>
       </motion.section>
 
       <motion.section id="skills" className="scroll-mt-24" initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
