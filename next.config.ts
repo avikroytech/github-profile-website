@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
+const repoName = "github-profile-website";
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
 };
 
 export default nextConfig;
